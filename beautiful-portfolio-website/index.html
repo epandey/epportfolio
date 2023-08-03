@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="container1">
+                <div class="left-div">
+                    <div class="header-text">
+                        <p>UI/UX Designer</p>
+                        <h1>Hi, I'm <span>Ekta Pandey</span><br>from India</h1>
+                        
+                    </div>
+                </div>
+                <div class="right-div">
+                    <div class="atom">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify;  max-width: 600px;">
+                        I am Ekta Pandey, a passionate Computer Science graduate from the University of Maryland. My expertise lies in Python, JavaScript, and web development using React.js and Redux. I thrive on research, specifically in spiking neural networks. Throughout my professional journey, I have contributed to diverse website development projects, diligently ensuring ADA and SEO compliance to enhance user experience.
+                        <br><br>
+                        With a Master's degree in Computer Science and hands-on experience, I possess a comprehensive understanding of the software development life cycle (SDLC) phases. My commitment to excellence is evident from delivering over 80 template modules and expanding global websites with feature-embedded sub-sites. During my internship at the Variable Energy Cyclotron Center, I developed a web application using the Grails framework, streamlining employee facilities like leave application and medical checkups.
+                        I am driven by a relentless curiosity to learn and grow, making a meaningful impact in the world of technology.
+                    
+                        <br><br>
+                        </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2018-2022</span><br>Tata Consultancy services</li>
+                            <li><span>2022-2023(May)</span><br>Reseacrh at UMBC in neural networks</li>
+                            <li><span>2023(May)-present</span><br>Software developer Intern @ Miller Constructions Services</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014-18</span><br>Techno India,Saltlake,Btech</li>
+                            <li><span>2022-present</span><br>UMBC,Masters,Computer science</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p style="text-align: justify;">At my core, I specialize in crafting cutting-edge mobile applications that meet the demands of modern users and technological trends. With my expertise in app development, I create seamless and user-centric solutions for both iOS and Android platforms.  </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p style="text-align: justify;">I take pride in empowering your online presence through tailored web solutions that align with your brand's unique vision and objectives. My expertise spans both front-end and back-end web development, resulting in responsive and high-performance websites. </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p style="text-align: justify;">My passion lies in crafting exceptional user journeys through captivating UI/UX design that seamlessly merges aesthetics with usability. From meticulous wireframing to interactive prototypes, I prioritize user-centered design to optimize engagement, drive conversions, and cultivate unwavering brand loyalty.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Software Development and Web Design</h2>
+                        <p>I've excelled in software development and web design at Tata Consultancy Services, delivering projects for Metlife, Transamerica, and Prudential. My contributions include feature-rich websites using React.js, Redux, and RESTful APIs. I designed CSS templates, led migration to SPAs with React-Router, and embraced Agile SDLC practices for holistic development.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Research and Development in Computer Science</h2>
+                        <p>As a Research Assistant at the University of Maryland, I drive pioneering computer science research, concentrating on inventive spatial temporal signal architecture using spiking neural networks. Skilled in Matlab, Python, my advanced studies delve into Digital Image Processing, Advanced Computer Architecture, and Algorithm Design.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Internship Experience</h2>
+                        <p>During my Variable Energy Cyclotron Center internship, I gained hands-on web app experience. Using Grails, I streamlined employee processes like leave, medical checkups, and taxation with a comprehensive application. Proficient in both frontend and backend, I gained insights into practical development, reinforcing my tech passion. Also, currently building a website for Miller Construction using React.
+                       </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> eektapandey83@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +14438571836</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ekta.pandey.1297943?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.facebook.com/ekta.pandey.1297943?mibextid=ZbWKwL"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ekta-pandey-19a29810b/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Ekta_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/xbjvdzky" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
